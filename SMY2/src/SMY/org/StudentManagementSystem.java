@@ -120,7 +120,7 @@ public class StudentManagementSystem {
 			pstmt.setInt(3, id);
 			int rowsUpdated = pstmt.executeUpdate();
 			if (rowsUpdated > 0) {
-				System.out.println("Student Update Successfully");
+				System.out.println("Student Updated Successfully");
 							}
 			else {
 				System.out.println("Student Not Found!");
